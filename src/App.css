@@ -27,12 +27,12 @@ section {
 }
 
 .filter-section {
-  width: 100%;
+  margin: 0 2rem;
 }
 .filter-section .filter {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 1rem 1rem;
 }
 
 .menuItem {
@@ -44,6 +44,8 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem 6rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .card-section .card {
   background-color: #fff;
@@ -163,4 +165,53 @@ section {
 .card-section .card .inner-card .logo-box .logo img {
   width: 45px;
   height: auto;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 55%;
+  }
+  .card-section {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem 3rem;
+  }
+  .filter-section .filter {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+@media (max-width: 850px) {
+  html {
+    font-size: 55%;
+  }
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 3rem;
+  }
+  .filter-section .filter {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+  .card-section {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem 3rem;
+  }
+  .filter-section .filter {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 55%;
+  }
+  .card-section {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem 3rem;
+  }
+  .filter-section .filter {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }/*# sourceMappingURL=App.css.map */
