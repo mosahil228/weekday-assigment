@@ -1,0 +1,198 @@
+$theme: #55EFC4;
+
+header {
+    width: 100%;
+    height: 30px;
+
+    nav {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+        background-color: $theme;
+        margin: 0 auto;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+        p {
+            color: black;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+    }
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+//filter and search section
+
+.filter-section {
+    width: 100%;
+
+    .filter {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+   
+}
+
+.menuItem {
+    font-size: 15px !important;
+}
+
+//card section css
+
+.card-section {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem 6rem;
+
+    .card {
+        background-color: #fff;
+        height: 100%;
+        border-radius: 15px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+        .inner-card {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            .apply{
+                border: none;
+                outline: none;
+                background-color: $theme;
+                color: black;
+                width: 100%;
+                border-radius: 1rem;
+                padding: 1rem;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                margin-bottom: 1rem;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+                cursor: pointer;
+                svg{
+                    color: yellow;
+                    width: 25px;
+                    height: 25px;
+
+                }
+            }
+
+            .exp {
+                color: #8b8b8b;
+                font-size: 1.5rem;
+                font-weight: 300;
+            }
+
+            .expYear {
+                font-size: 1.3rem;
+                background-color: rgb(187, 252, 234);
+                padding: .5rem 1rem;
+                border-radius: 1rem;
+                color: black;
+                font-weight: 800;
+                width: fit-content;
+            }
+
+            .para {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                button {
+                    text-align: center;
+                    border: none;
+                    outline: none;
+                    background-color: #fff;
+
+                    svg {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+
+            h4 {
+                color: #4D596A;
+                font-size: 1.4rem;
+                font-weight: 400;
+            }
+
+            h2 {
+                font-weight: 200;
+            }
+
+            p {
+                color: #000000DE;
+                font-size: 1.2rem;
+            }
+
+            gap: 1.2rem;
+
+            .logo-box {
+                display: flex;
+                gap: 1.5rem;
+                align-items: center;
+
+                .company {
+                    display: flex;
+                    flex-direction: column;
+                    gap: .3rem;
+
+                    h1 {
+                        color: #8b8b8b;
+                        font-size: 1.2rem;
+                    }
+
+                    h3 {
+                        font-weight: 300;
+                        font-size: 1.8rem;
+
+                    }
+
+                    p {
+                        font-size: 1rem;
+                        background-color: rgb(187, 252, 234);
+                        padding: .4rem;
+                        border-radius: 1rem;
+                        color: black;
+                        font-weight: 800;
+                        width: fit-content;
+                    }
+
+                }
+
+                .logo {
+                    position: relative;
+                    width: 60px;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 6px;
+                    background-color: #fff;
+                    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+                    img {
+                        width: 45px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}

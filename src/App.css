@@ -1,0 +1,166 @@
+header {
+  width: 100%;
+  height: 30px;
+}
+header nav {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  background-color: #55EFC4;
+  margin: 0 auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+header nav p {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.filter-section {
+  width: 100%;
+}
+.filter-section .filter {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.menuItem {
+  font-size: 15px !important;
+}
+
+.card-section {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem 6rem;
+}
+.card-section .card {
+  background-color: #fff;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card-section .card .inner-card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.card-section .card .inner-card .apply {
+  border: none;
+  outline: none;
+  background-color: #55EFC4;
+  color: black;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+.card-section .card .inner-card .apply svg {
+  color: yellow;
+  width: 25px;
+  height: 25px;
+}
+.card-section .card .inner-card .exp {
+  color: #8b8b8b;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.card-section .card .inner-card .expYear {
+  font-size: 1.3rem;
+  background-color: rgb(187, 252, 234);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: black;
+  font-weight: 800;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.card-section .card .inner-card .para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-section .card .inner-card .para button {
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+.card-section .card .inner-card .para button svg {
+  width: 20px;
+  height: 20px;
+}
+.card-section .card .inner-card h4 {
+  color: #4D596A;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.card-section .card .inner-card h2 {
+  font-weight: 200;
+}
+.card-section .card .inner-card p {
+  color: rgba(0, 0, 0, 0.8705882353);
+  font-size: 1.2rem;
+}
+.card-section .card .inner-card .logo-box {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.card-section .card .inner-card .logo-box .company {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.card-section .card .inner-card .logo-box .company h1 {
+  color: #8b8b8b;
+  font-size: 1.2rem;
+}
+.card-section .card .inner-card .logo-box .company h3 {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+.card-section .card .inner-card .logo-box .company p {
+  font-size: 1rem;
+  background-color: rgb(187, 252, 234);
+  padding: 0.4rem;
+  border-radius: 1rem;
+  color: black;
+  font-weight: 800;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.card-section .card .inner-card .logo-box .logo {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card-section .card .inner-card .logo-box .logo img {
+  width: 45px;
+  height: auto;
+}/*# sourceMappingURL=App.css.map */
